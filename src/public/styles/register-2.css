@@ -40,28 +40,26 @@ main > p {
     font-size: 16px;
     font-weight: 400;
     color: rgba(0, 0, 0, 0.66);
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 0px 0px;
 }
 
-/* fields. */
-
-label {
-    font-size: 16px;
-    font-weight: 500;
-    margin-top: 20px;
-    color: #000;
+form {
+    display: flex;
 }
 
 input {
     height: 54px;
-    width: 278px;
-    padding: 10px 12px;
-    border: none;
+    width: 54px;
+    background-color: transparent;
+    border: 2px solid #000;
     border-radius: 27px;
+    margin: 20px 5px 0px 5px;
 }
 
-#username {
-    margin-bottom: 10px;
+main > h2 {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px 0px 0px 0px;
 }
 
 main > button {
@@ -76,54 +74,14 @@ main > button {
     border-radius: 27px;
 }
 
-main > span {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    margin: 20px 0 10px 0px;
-}
-  
-main > span::after,
-main > span::before {
-  content: "";
-  width: 123px;
-  border: 0.25px solid #000;
-  flex: 1;
-}
-
-main > span:not(:empty)::before {
-    margin-right: 7px;
-}
-  
-main > span:not(:empty)::after {
-    margin-left: 7px;
-}
-
-#social-login {
-    margin-top: 10px;
-}
-
-footer {
-    font-size: 14px;
-    text-align: center;
-    color: rgba(0, 0, 0, 0.66);
-    margin-top: 15px;
-}
-
-footer > span {
-    color: #000;
-    font-weight: 500;
-}
-
-main > h2 {
+main > h3 {
     font-size: 14px;
     font-weight: 400;
-    color: rgba(0, 0, 0, 0.66);
     margin-top: 20px;
+    color: rgba(0, 0, 0, 0.66);
 }
 
-main > h2 > span {
+main > h3 > span {
+    text-transform: uppercase;
     color: #000;
-    text-decoration: underline;
-    font-weight: 500;
 }
